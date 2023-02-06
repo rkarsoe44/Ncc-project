@@ -103,3 +103,27 @@ nav{
       color: cyan;
     }
   }
+  /* ======================================================================= */
+  .pOne{
+    text-align: center;
+    margin: 30px 100px;
+  }
+  .plabel1{
+    margin-bottom: 30px;
+    font-size: 25px;
+    
+  }
+  .plabel2{
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .ptwo{
+    margin: 20px 100px;
+  }
+  .card{
+    border: solid black 1px;
+  }
+  .card1{
+    padding: 10px;
+  }
