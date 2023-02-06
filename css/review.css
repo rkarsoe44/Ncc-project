@@ -1,0 +1,342 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",
+    sans-serif;
+}
+/* ======================================================================= */
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background: #9b8eff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+    flex-wrap: wrap;
+  }
+  nav .logo{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  nav ul li{
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    color: #111;
+    background: #fff;
+  }
+  nav .menu-btn i{
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+  }
+  input[type="checkbox"]{
+    display: none;
+  }
+  
+  /* ======================================================================= */
+  
+  body {
+    min-height: 100vh;
+    /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  background: #f0faff;
+}
+.align{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.wrapper {
+  position: relative;
+  max-width: 470px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 20px
+    30px
+    120px;
+    background: #9b8eff;
+  box-shadow: 0
+  5px
+    10px
+    rgba(
+      0,
+      0,
+      0,
+      0.1
+      );
+      overflow: hidden;
+    }
+.form.login {
+  position: absolute;
+  left: 50%;
+  bottom: -86%;
+  transform: translateX(
+    -50%
+  );
+  width: calc(
+    100% +
+      220px
+      );
+      padding: 20px
+    140px;
+    border-radius: 50%;
+  height: 100%;
+  background: #fff;
+  transition: all
+  0.6s
+  ease;
+}
+.wrapper.active
+  .form.login {
+  bottom: -15%;
+  border-radius: 35%;
+  box-shadow: 0 -5px
+  10px rgba(0, 0, 0, 0.1);
+}
+.form
+header {
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.form.login
+header {
+  color: #333;
+  opacity: 0.6;
+}
+.wrapper.active
+  .form.login
+  header {
+  opacity: 1;
+}
+.wrapper.active
+.signup
+  header {
+    opacity: 0.6;
+}
+.wrapper
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+form
+input {
+  height: 60px;
+  outline: none;
+  border: none;
+  padding: 0
+    15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 8px;
+    background: #fff;
+  }
+.form.login
+input {
+  border: 1px
+    solid
+    #aaa;
+  }
+.form.login
+input:focus {
+  box-shadow: 0
+    1px 0
+    #ddd;
+  }
+  form
+  .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.checkbox
+  input[type="checkbox"] {
+    height: 16px;
+  width: 16px;
+  accent-color: #fff;
+  cursor: pointer;
+}
+form
+.checkbox
+label {
+  cursor: pointer;
+  color: #fff;
+}
+form a {
+  color: #333;
+  text-decoration: none;
+}
+form
+  a:hover {
+    text-decoration: underline;
+}
+form
+input[type="submit"] {
+  margin-top: 15px;
+  padding: none;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.form.login
+  input[type="submit"] {
+  background: #9b8eff;
+  color: #fff;
+  border: none;
+}
+
+/* =================================================================================== */
+.labelone{
+  text-align: center;
+  margin: 20px 0px;
+}
+.label3{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.cardgp{
+  margin-top: 70px;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.group{
+  width: 300px;
+}
+img{
+  width: 300px;
+  height: 200px;
+}
+.group{
+  /* margin: ; */
+  background-color: rgba(229, 229, 229, 0.306);
+  width: 300px;
+}
+.cardtitle{
+  padding-bottom: 20px;
+}
+
+.cardlabel,.cardlabel2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  margin:10px 0px;
+}
+.cardlabel2{
+  padding-bottom: 20px;
+}
+.cardp{
+  display: inline-block;
+  margin-right: 0px;
+}
+.cart{
+  background: #9b8eff;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 3px;
+}
+.icon{
+  color: rgb(255, 7, 7);
+  font-size: 20px;
+}
+.icon2{
+  font-size: 20px;
+  padding-right: 20px;
+}
+.iconflex{
+  padding-left: 20px;
+}
+.iconstar{
+  color: rgb(255, 180, 81);
+}
+/* =================================================================================== */
+
+
+
+
+
+  @media (max-width: 1000px){
+    nav{
+      padding: 0 40px 0 50px;
+    }
+    .align{
+      margin-top: 3px;
+    }
+  }
+  @media (max-width: 920px) {
+    .align{
+      margin-top: 3px;
+    }
+    nav .menu-btn i{
+      display: block;
+    }
+    #click:checked ~ .menu-btn i:before{
+      content: "\f00d";
+    }
+    nav ul{
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      background: #111;
+      height: 100vh;
+      width: 100%;
+      z-index: 200;
+  
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+      left: 0;
+    }
+    nav ul li{
+      width: 100%;
+      margin: 40px 0;
+    }
+    nav ul li a{
+      width: 100%;
+      margin-left: -100%;
+      display: block;
+      font-size: 20px;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    #click:checked ~ ul li a{
+      margin-left: 0px;
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+      background: none;
+      color: cyan;
+    }
+  }
