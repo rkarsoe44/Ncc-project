@@ -20,7 +20,7 @@ nav{
   }
   nav .logo{
     color: #fff;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 600;
   }
   nav ul{
@@ -185,6 +185,9 @@ input:focus {
   accent-color: #fff;
   cursor: pointer;
 }
+.radio{
+  width: 20px;
+}
 form
 .checkbox
 label {
@@ -295,6 +298,9 @@ img{
     }
   }
   @media (max-width: 920px) {
+    nav .logo{
+      font-size: 15px;
+    }
     .align{
       margin-top: 3px;
     }
